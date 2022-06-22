@@ -1,0 +1,154 @@
+.o_menu {
+
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    
+}
+
+.o_menu2{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;  
+}
+
+.a_seta {
+
+    height: 1.7rem;
+    width: 3rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    height: 10%;
+    background-color: #f25c05;
+    width: 100%;
+    
+    
+}
+main{
+    height:50%; 
+}
+
+.quadrado {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 1rem;
+
+}
+
+.tt{
+    text-decoration:none;
+    font-size: 1rem;
+    color:#ffffff;
+    font-family: 'Mukta', Hind, sans-serif;  
+    display: flex;
+}
+
+.cor{
+    color: black;
+    font-weight: bold;
+    font-family: 'Mukta', Hind, sans-serif;
+    font-size: 1.2rem;
+}
+
+
+a{
+    text-decoration:none;
+    color: #000000;
+}
+
+.pesq{
+    height: 0.8rem;
+    width: 0.8rem;
+}
+
+.des{
+    border: 1px solid;
+    border-color: #000000;
+    background-color: #ffffff ;
+    width: 1rem;
+    height: 1.25rem;
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:0.3rem;
+    border-color: #f25c05;
+
+}
+
+.mudanca{
+    visibility: hidden;
+    transition: transform .3s ease-in;
+    position: absolute;
+    top: 3.2rem;
+    left: 0%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f25c05;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Mukta',Hind, sans-serif;
+    font-weight:bold;
+    font-size: 1rem;
+    overflow-y: hidden;
+    z-index:1000;
+    animation: go-back 1s;}
+
+
+.mudanca a{
+    transition: color 0.5s;
+    height: 2rem;
+    /*margin-top: 2rem;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: black;
+}
+
+.mudanca .valor:hover{
+    width: 100%;
+    background: #3bacd9;
+   
+   }
+
+.mudanca a:hover{
+    color:white;
+}
+
+
+.valor{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.374);
+    justify-content:center;
+}
+
+.mudanca img{
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-right: 1rem;
+}
+
+

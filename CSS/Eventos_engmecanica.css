@@ -1,0 +1,52 @@
+.cabeça {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-bottom: 1px solid;
+    border-color: #000000;
+
+}
+
+.curso{
+    display: flex; 
+    align-items: center; 
+
+}
+
+.resultados {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 100%;
+
+}
+
+.opções {
+
+    display: flex;
+    align-items: center;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+
+}
+
+.corpo {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+.texto {
+
+    margin-bottom: 1.5rem;
+
+}

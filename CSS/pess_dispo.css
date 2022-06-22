@@ -1,0 +1,76 @@
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.cor2{
+    display: flex;
+    font-size:1.6rem;
+    color: #000000;
+    font-weight: bold;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Mukta', Hind, sans-serif; 
+}
+
+header{
+    height: 10%;
+    border-bottom: 1px solid;
+    border-color: #000000;
+}
+.usuario{
+    height: 4rem;
+    width: auto;
+}
+
+.mensagem{
+    height: 3rem;
+    width: auto;
+}
+
+.texto{
+    height: 1rem;
+    width: 50%;
+    font-family: "Source Serif Pro", Sorts Mill Goudy, serif;
+}
+.separa{
+    margin-top: 1rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.espaco{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.teste{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
